@@ -16,17 +16,21 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
 }
 
-.header-logo-part {
+.header-logo .logo-part {
     color: #2e2f42;
 }
 
-.menu {
+.footer-logo .logo-part {
+    color: #f4f4fd;
+}
+
+.menu-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -34,30 +38,42 @@ a {
     color: #2e2f42;
 }
 
-.menu-link {
-    color: inherit;
-}
-
-.contact-list {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.menu-link:hover, .menu-link:focus {
+    color: #404bbf;
 }
 
 .contact-list-link {
-    color: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .hero {
     background-color: #2e2f42;
 }
 
+.order-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4d5ae5;
+    cursor: pointer;
+}
+
+.order-button:hover, .order-button:focus,
+.contact-list-link:hover, .contact-list-link:focus {
+    background-color: #404bbf;
+}
+
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -83,13 +99,18 @@ a {
     background-color: #f4f4fd;
 }
 
+.team-member {
+    background-color: #fff;
+}
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .team-member-name {
@@ -113,10 +134,11 @@ a {
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .portfolio-item-name {
@@ -137,10 +159,6 @@ a {
 
 .page-footer {
     background-color: #2e2f42;
-}
-
-.footer-logo-part {
-    color: #f4f4fd;
 }
 
 .footer-text {
