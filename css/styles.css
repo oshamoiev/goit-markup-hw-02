@@ -38,10 +38,6 @@ a {
     color: #2e2f42;
 }
 
-.menu-link:hover, .menu-link:focus {
-    color: #404bbf;
-}
-
 .contact-us {
     font-style: normal;
 }
@@ -68,7 +64,11 @@ a {
     cursor: pointer;
 }
 
-.order-button:hover, .order-button:focus,
+.order-button:hover, .order-button:focus {
+    background-color: #404bbf;
+}
+
+.menu-link:hover, .menu-link:focus,
 .contact-list-link:hover, .contact-list-link:focus {
     color: #404bbf;
 }
