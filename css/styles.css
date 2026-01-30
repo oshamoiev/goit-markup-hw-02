@@ -42,10 +42,13 @@ a {
     color: #404bbf;
 }
 
+.contact-us {
+    font-style: normal;
+}
+
 .contact-list-link {
     font-weight: 400;
     font-size: 16px;
-    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -67,7 +70,7 @@ a {
 
 .order-button:hover, .order-button:focus,
 .contact-list-link:hover, .contact-list-link:focus {
-    background-color: #404bbf;
+    color: #404bbf;
 }
 
 .hero-title {
